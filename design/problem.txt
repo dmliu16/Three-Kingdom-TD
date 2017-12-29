@@ -1,0 +1,20 @@
+A tower defense game
+
+There are 4 .py files for my game. The pygamegame.py is a file written by TA Lukas Peraza for the pygame lecture, and that file mainly runs the game.
+
+The game file is the main file. It uses the two classes from soldier.py and enemy.py. 
+
+game.py starts with an init that calls the initial value of the game (the inital map, the default values in the game). 
+
+mousePressed allows the user to maneuver around the game. When the game is not yet started, it allows the user to go to different mode and to start the game. After the game is started, it allows the user to click on things with functions. For example, the user can click on the empty boxes to build soldiers and click on the Taiji to look at the menu.
+
+timerFired keeps track of many different times. The most important one is the time to keep track of the enemies. self.time allows the enemies the come out at a predetermined ratio/time; also it allows the space between the enemies. ghosttime allows the ghost to pop out when an enemy is killed. Finally, attackingTime allows the soldiers to have different attack speed.
+
+redrawAll draws all the interactive images the user sees on the screen. They are drawn based on the init value or the values in timerFired.
+
+The Soldier class allows the soldiers to attack and get on the map.
+
+The Enemy class allows the enemy to find the route according to the map, move along the map, and displaying on the screen.
+
+Thanks!
+

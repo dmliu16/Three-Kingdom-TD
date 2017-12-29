@@ -1,0 +1,9 @@
+After the game starts running, the user clicks the screen first to continue, and the user can choose the map to play by simply clicks on the floating sword. After that, the actual game is started.
+(This part I didn't study any other games. It's just what I think the game should be.)
+
+For the part you actually play, I try to imitate an iphone game called Three Kingdoms TD, and I copied some graphics from that game in order to make my game look nice. You can see how the game looks like by opening the file. I arrange the game like this, because it provides a friendly experience to the users (I played the game so many times), and it is convenient for the user to pause the game (by pressing stop), and get help (by clicking on the menu/taiji).
+
+The main difference I have compare to the iphone game is that on the iphone game, the user drags the soldiers into the boxes, and in my game, the user clicks the box and place soldiers in it. I modified this because I think dragging is not as efficient on a laptop, especially when the user doesn't have a mouse.
+
+After the game is finished (win/lose), the user can choose to go back (restart/quit), or continue to the next level if wins.
+(This part is also my idea. Unfortunately, I didn't have the time to make the game savable). This offers the users an unique experience of playing a video game of a "big scale".
